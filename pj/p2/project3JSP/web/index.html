@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>RECIPES</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <h1>Select Recipe & Adjust Servings</h1>
+    <form action="Recipes" method="post">
+        <h2>Pick your Recipe: </h2>
+        <select name="recipe" id="recipe">
+            <option value="Pasta">Pasta</option>
+            <option value="Bread">Bread</option>
+            <option value="Pizza">Pizza</option>
+            <option value="Tacos">Tacos</option>
+        </select>
+
+        <label for="factor">Adjust factor:</label>
+        <select name="factor" id="factor">
+            <option value="0.25">1/4</option>
+            <option value="0.5">1/2</option>
+            <option value="1">1 (Original)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <input type="submit" value="Adjust Recipe">
+    </form>
+</body>
+</html>
